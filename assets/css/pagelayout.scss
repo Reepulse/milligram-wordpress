@@ -1,0 +1,28 @@
+
+.site-header {
+  //border-radius: 0px 0px 60% 60%;
+  //background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+
+#site-footer {
+  .column > div:not(:first-child) {
+    margin-top: 3rem;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+
+  &.sub-menu {
+    padding-left: 1rem;
+  }
+}
+
+body {
+  p {
+    margin-bottom: 0.5rem;
+  }
+}

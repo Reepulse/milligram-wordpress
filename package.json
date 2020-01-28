@@ -1,0 +1,28 @@
+{
+  "name": "Reepulse",
+  "version": "1.0.0",
+  "description": "Minimal theme for WordPress.",
+  "main": "index.js",
+  "scripts": {
+    "css-size": "du -hs assets/css/main.css",
+    "sass-dev": "./node_modules/node-sass/bin/node-sass --watch --output-style=compressed ./assets/css/main.scss ./assets/css/main.css --source-map-embed",
+    "sass-prod": "./node_modules/node-sass/bin/node-sass --output-style=compressed ./assets/css/main.scss ./assets/css/main.css --source-map-embed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme",
+    "SEO",
+    "Performance"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "bulma-helper-spacing": "0.0.2",
+    "milligram": "^1.3.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

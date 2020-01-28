@@ -1,0 +1,32 @@
+.is-uppercase {
+  text-transform: uppercase;
+}
+
+.has-text-weight-light {
+  font-weight: 300 !important;
+}
+
+.has-text-weight-bold {
+  font-weight: 700 !important;
+}
+
+.has-text-justified {
+  text-align: justify !important;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
+
+.has-text-centered {
+  text-align: center !important;
+}
+
+.has-text-overflowed {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+}

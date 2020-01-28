@@ -1,0 +1,25 @@
+
+.is-active,
+.is-white {
+  color: $white;
+}
+
+.is-light {
+  color: $light;
+}
+
+.has-text-grey-dark {
+  color: $grey-dark;
+}
+
+.has-text-black {
+  color: $black;
+}
+
+.has-background-darker {
+  background: $grey-darker !important;
+}
+
+.has-background-white {
+  background: $white !important;
+}

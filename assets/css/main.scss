@@ -1,0 +1,91 @@
+@import "../../node_modules/bulma/sass/utilities/all.sass";
+
+$color-initial: #fff;
+$color-primary: #e9862b;
+$color-secondary: #1c3146;
+$color-tertiary: #dcdcdc;
+$color-quinary: #fff;
+
+$radius-large: 6px;
+
+/* Milligram import */
+@import "../../node_modules/milligram/src/Color";
+@import "../../node_modules/milligram/src/Base";
+@import "../../node_modules/milligram/src/Blockquote";
+@import "../../node_modules/milligram/src/Button";
+@import "../../node_modules/milligram/src/Code";
+@import "../../node_modules/milligram/src/Divider";
+@import "../../node_modules/milligram/src/Form";
+@import "../../node_modules/milligram/src/Grid";
+@import "../../node_modules/milligram/src/Link";
+@import "../../node_modules/milligram/src/List";
+//@import "../../node_modules/milligram/src/Spacing";
+@import "../../node_modules/milligram/src/Table";
+@import "../../node_modules/milligram/src/Typography";
+@import "../../node_modules/milligram/src/Image";
+//@import "../../node_modules/milligram/src/Utility";
+
+/* Custom Milligram */
+@import "milligram/Typography";
+@import "milligram/Grid";
+
+$primary: #e9862b;
+$secondary: #1c3146;
+
+$info: $cyan !default;
+$success: $green !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$grey: #aeaeae !default;
+$light: #dcdcdc !default$dark: #101010 !default;
+$white: #fefefe !default;
+
+$navbar-item-color: $white;
+$navbar-item-hover-color: $secondary;
+$navbar-item-active-color: $primary;
+
+/** Bulma components **/
+@import "../../node_modules/bulma/sass/elements/tag";
+@import "../../node_modules/bulma/sass/components/navbar";
+@import "../../node_modules/bulma/sass/components/card";
+@import "../../node_modules/bulma/sass/layout/hero";
+@import "../../node_modules/bulma/sass/elements/box";
+@import "../../node_modules/bulma/sass/components/media";
+
+/** External libs **/
+@import '../../node_modules/normalize.css/normalize';
+
+/** Custom elements **/
+@import 'elements/helpers';
+@import 'elements/color';
+@import 'elements/sizing';
+@import 'elements/typography';
+
+/** Pages **/
+@import 'pages/single';
+@import "pagelayout";
+
+
+/** Bulma additionnals **/
+@import "bulma/card";
+@import "bulma/navbar";
+@import "bulma/tags";
+
+/** Customize design :) **/
+.filtered-black {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1rem;
+}
+
+ul.unstyled {
+  list-style: none;
+}
+

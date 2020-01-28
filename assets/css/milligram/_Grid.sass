@@ -1,0 +1,50 @@
+
+// Grid
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// .container is main centered wrapper with a max width of 112.0rem (1120px)
+.container.container-hd
+	max-width: 142.0rem
+
+.row
+	.column
+		&.column-33
+			max-width: 100%
+
+			/* Larger than tablet screen */
+			@media (min-width: 80.0rem)
+				max-width: 50%
+
+			/* Larger than desktop screen */
+			@media (min-width: 120.0rem)
+				max-width: 33%
+
+.row
+	.column
+		&.column-25
+			max-width: 100%
+
+			/* Larger than desktop screen */
+			@media (min-width: 120.0rem)
+				max-width: 25%
+
+		&.column-33
+			max-width: 100%
+
+			/* Larger than desktop screen */
+			@media (min-width: 120.0rem)
+				max-width: 33%
+
+		&.column-66
+			max-width: 100%
+
+			/* Larger than desktop screen */
+			@media (min-width: 120.0rem)
+				max-width: 66%
+
+		&.column-75
+			max-width: 100%
+
+			/* Larger than desktop screen */
+			@media (min-width: 120.0rem)
+				max-width: 75%

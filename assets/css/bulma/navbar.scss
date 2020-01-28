@@ -1,0 +1,11 @@
+.navbar {
+  &.is-transparent {
+    background: transparent;
+  }
+
+  .navbar-dropdown {
+    a.navbar-item {
+      color: $dark;
+    }
+  }
+}
