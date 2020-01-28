@@ -28,7 +28,7 @@ milligram_wordpress is based on milligram css, hence it has a storng foundationa
 - Then clone the repository
 
   ```
-  sudo git clone https://github.com/Reepulse/milligram_wordpress.git
+  sudo git clone https://github.com/Reepulse/milligram-wordpress.git
   ```
 
 - Login to your admin dashboard by visiting `https://your_site_url/wp-admin/`
